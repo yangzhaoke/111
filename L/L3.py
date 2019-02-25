@@ -1,0 +1,6 @@
+f=open('1.jpg','rb+')
+img=f.read()
+f.close()
+f1=open('2.jpg','wb+')
+f1.write(img)
+f1.close()
